@@ -1,8 +1,2 @@
-runtime: nodejs8
-
-# what follows will be optional in the future:
-service: node-next-gae-demo
-handlers:
-- url: /.*
-  script: server.js # Note as of March 13, handlers are not yet obeyed.
-
+runtime: nodejs
+env: flex
